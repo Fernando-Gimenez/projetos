@@ -1,6 +1,6 @@
 from random import randint
 
-numero = randint(1, 2)
+numero = randint(1, 10)
 
 chute = int(input('numero do chute'))
 
