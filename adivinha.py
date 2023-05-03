@@ -4,7 +4,7 @@ from random import randint
 numero = randint(1, 50)
 
 #numero de tentativas 
-tentativas = 5
+tentativas = 3
 #enquanto um numero maior que 0, chute um numero inteiro (int) se o chute for igual ao nuimero randomico (randit) imprima parabéns!
 while tentativas > 0:
     chute = int(input('numero do chute'))
