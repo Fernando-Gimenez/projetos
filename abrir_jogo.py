@@ -10,3 +10,4 @@ pyautogui.press('enter')
 time.sleep(40)
 pyautogui.write('Fernando1*')
 pyautogui.press('enter')
+pyautogui.press
