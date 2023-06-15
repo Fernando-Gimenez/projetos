@@ -1,18 +1,17 @@
-# Defina uma branch na qual irá trabalhar git checkout dev
+# Para fazer um push das alterações em uma branch local do seu repositório Git para a branch main no GitHub, siga os seguintes passos:
 
-# Atualize o seu repositório local git pull origin dev
+# Abra o terminal dentro do Visual Studio Code (use a combinação de teclas CTRL+Shift+' ou vá em Terminal > New Terminal no menu);
 
-# Visualize o status do seu arquivo com git status
-# > Você receberá a mensagem de que o arquivo foi modificado
+# Certifique-se de que você está na branch local que deseja enviar para o repositório remoto. Para isso, execute o comando git branch e veja o nome da branch atualmente selecionada;
 
-# Adicione para confirmar a alteração git add nome_arquivo
+# Adicione as alterações para serem enviadas com o comando git add . (adiciona todas as alterações) ou git add <nome_do_arquivo> (adiciona um arquivo específico);
 
-# Confirme que está tudo certo git commit -m “comentário aqui”
+# Faça o commit das alterações usando o comando git commit -m "Mensagem do commit" (substitua "Mensagem do commit" por uma descrição clara e sucinta do que foi alterado);
 
-# Envie para o repositório remoto git push origin dev
+# Verifique se o repositório remoto está definido corretamente como o destino do seu push usando o comando git remote -v. Ele deve exibir o endereço do seu repositório no GitHub;
 
-# Mude para a branch desejada git checkout master
+# Execute o comando git push origin <nome_da_branch> para enviar as alterações para o repositório remoto no GitHub. Substitua <nome_da_branch> pelo nome da branch que você está enviando (neste caso, main);
 
-# Junte os arquivos da branch master com os arquivos enviados por você para a branch dev git merge dev
+# Insira suas credenciais do GitHub quando solicitado pelo terminal.
 
-# git checkout -b nova_branch origin/master
+# Após executar o comando git push, suas alterações serão enviadas para o repositório remoto no GitHub na branch main.
