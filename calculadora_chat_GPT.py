@@ -6,7 +6,7 @@ class Calculator:
         master.title("Calculadora")
 
         self.result = tk.Entry(master, width=20, font=("Arial", 16))
-        self.result.grid(row=0, column=0, columnspan=4)
+        self.result.grid(row=0, column=0, columnspan=5)
 
         self.create_button("7", 1, 0)
         self.create_button("8", 1, 1)
